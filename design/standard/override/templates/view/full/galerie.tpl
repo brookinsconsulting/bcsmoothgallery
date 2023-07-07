@@ -3,22 +3,22 @@
                                                 class_filter_type , 'include' , 
                                                 class_filter_array , array( 'image' ) ,
                                                 sort_by , array( array( 'priority' , true() ) , array( 'published' , true() ) ) ))}
-<div id="myGallery">
+<div id="myGallery{$node.node_id}" class="myGallery">
     {foreach $children as $image_node}
         {node_view_gui content_node=$image_node view='image_galerie'}
     {/foreach}
 </div>
 <script type="text/javascript">
 {literal}
-function startGallery() {
-var myGallery = new gallery($('myGallery'), {
+function startGallery{/literal}{$node.node_id}{literal}() {
+var myGallery = new gallery($('myGallery{/literal}{$node.node_id}{literal}'), {
 timed: true,
 showArrows: true,
 showCarousel: true,
 embedLinks: true
 });
 }
-window.onDomReady(startGallery);
+window.onDomReady(startGallery{/literal}{$node.node_id}{literal});
 {/literal}
 </script>
 
