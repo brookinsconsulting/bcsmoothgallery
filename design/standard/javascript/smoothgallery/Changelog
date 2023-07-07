@@ -1,0 +1,8 @@
+v1.0:
+  * Initial release
+
+v1.0.1:
+  * Fixed bug in jd.gallery.js that prevented more than 10 images in
+    carousel.
+  * Fixed bug in resizer.php that prevented filenames with extensions in
+    uppercase.

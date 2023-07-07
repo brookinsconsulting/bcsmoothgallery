@@ -1,0 +1,18 @@
+eZ Smooth Gallery Installation
+=======
+1) Unzip archive in your extension folder.
+2) Run Package importer from admin interface and choose SmoothGallery package located in the extension
+3) If you're not using regular CSS and JS inclusion in your <head></head>, you'll have to add the follwing lines in your pagelayout :
+
+{* CSS Smoothgalery *}
+<link rel="stylesheet" href={"stylesheets/smoothgallery/jd.gallery.css"|ezdesign} type="text/css" media="screen" />
+
+{* JS Smoothgalery *}
+<script src={"scripts/smoothgallery/mootools.js"|ezdesign} type="text/javascript"></script>
+<script src={"scripts/smoothgallery/jd.gallery.js"|ezdesign} type="text/javascript"></script>
+
+4) In order to test, create a "Galerie" content object. Add "Image" content objects as children of it.
+
+Ready to run.
+
+Nabil Alimi <starnab@hotmail.com> http://www.starnab.com
