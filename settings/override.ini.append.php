@@ -1,18 +1,17 @@
 <?php /* #?ini charset="utf-8"?
 
-[smoothgallery_galerie_view_full]
+[smoothgallery_gallery_view_full]
 Source=node/view/full.tpl
-MatchFile=view/full/galerie.tpl
+MatchFile=view/full/gallery.tpl
 Subdir=templates
-# Match[class_identifier]=galerie
 Match[class_identifier]=gallery
 
-[smoothgallery_image_view_image_galerie]
-Source=node/view/image_galerie.tpl
-MatchFile=view/image_galerie/image.tpl
+[smoothgallery_image_view_image_gallery]
+Source=node/view/image_gallery.tpl
+MatchFile=view/image_gallery/image.tpl
 Subdir=templates
 Match[class_identifier]=image
 
-*/
 
-?>
+
+*/ ?>

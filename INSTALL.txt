@@ -1,4 +1,4 @@
-eZ Smooth Gallery Installation
+BC Smooth Gallery Installation
 =======
 1) Unzip archive in your extension folder.
 2) Run Package importer from admin interface and choose SmoothGallery package located in the extension
@@ -15,4 +15,4 @@ eZ Smooth Gallery Installation
 
 Ready to run.
 
-Nabil Alimi <starnab@hotmail.com> http://www.starnab.com
+Enjoy! :)

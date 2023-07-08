@@ -5,7 +5,7 @@
                                                 sort_by , array( array( 'priority' , true() ) , array( 'published' , true() ) ) ))}
 <div id="myGallery">
     {foreach $children as $image_node}
-        {node_view_gui content_node=$image_node view='image_galerie'}
+        {node_view_gui content_node=$image_node view='image_gallery'}
     {/foreach}
 </div>
 

@@ -1,17 +1,16 @@
 <?php /* #?ini charset="utf-8"?
 
 [AliasSettings]
-AliasList[]=image_galerie
-AliasList[]=vignette_galerie
+AliasList[]=image_gallery
+AliasList[]=vignette_galery
 # Vignette = Thumb
 
-[image_galerie]
+[image_gallery]
 Reference=original
 Filters[]=geometry/scaledownonly=480;400
 
-[vignette_galerie]
+[vignette_gallery]
 Reference=original
 Filters[]=geometry/scaledownonly=150;150
-*/
 
-?>
+*/ ?>
